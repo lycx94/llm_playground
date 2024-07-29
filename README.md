@@ -1,5 +1,19 @@
 # RAG playground
 
+## RAG_ollama_pdf.ipynb
+This notebook showcases a RAG implementation using Ollama for processing PDF documents. It demonstrates how to extract information from PDFs and use it for question answering. Key features include:
+
+
+**Two chunking methods:**
+
+- Recursive chunking
+- Semantic chunking
+
+**Retrieval mechanisms:**
+- FAISS (Facebook AI Similarity Search) as the primary retriever
+- BM25 as an ensemble retriever
+
+
 ## RAG_with_Reranker_for_Question_Answering.ipynb
 
 This notbook demonstrates building a Retrieval-Augmented Generation (RAG) model using LangChain for question answering. 
@@ -16,3 +30,5 @@ This notbook demonstrates building a Retrieval-Augmented Generation (RAG) model 
 - Embedding Model: BAAI/bge-base-en-v1.5
 - LLM: Llama-3-8b-chat-hf
 - Reranker: ColBERTv2.0
+
+
