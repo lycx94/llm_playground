@@ -1,4 +1,16 @@
-# RAG playground
+# LLM playground
+
+
+## Autogen_Ollama_Code_Executor.ipynb
+- Focuses on code execution capabilities within AutoGen
+- Integrates Ollama for running language models locally
+- Illustrates how to set up and use a code execution environment
+
+
+## Autogen_LMStudio_MultiModels.ipynb
+- Demonstrates the use of multiple language models with AutoGen
+- Utilizes LM Studio for local model deployment
+- Showcases agent interactions and task completion
 
 ## RAG_ollama_pdf.ipynb
 This notebook showcases a RAG implementation using Ollama for processing PDF documents. It demonstrates how to extract information from PDFs and use it for question answering. Key features include:
